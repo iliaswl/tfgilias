@@ -6,7 +6,7 @@ if (!isset($_SESSION['usuario_id'])) {
 }
 
 // Conexión a la base de datos
-$conexion = mysqli_connect("localhost", "root", "", "tfg");
+$conexion = mysqli_connect("localhost", "root", "contraseña", "tfg");
 
 // Verificar conexión
 if (!$conexion) {

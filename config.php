@@ -2,7 +2,7 @@
 // Datos de conexión a la base de datos
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "contraseña";
 $database = "tfg";
 
 // Crear conexión

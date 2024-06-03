@@ -24,7 +24,7 @@
                 <select class="form-control" id="id_sesion" name="id_sesion" required>
                     <!-- Opciones de sesión obtenidas de la base de datos -->
                     <?php
-                    $conexion = mysqli_connect("localhost", "root", "", "tfg");
+                    $conexion = mysqli_connect("localhost", "root", "contraseña", "tfg");
                     $consulta_sesiones = "SELECT ID, Descripcion FROM sesionesentrenamiento WHERE Aforo > 0";
                     $resultado_sesiones = mysqli_query($conexion, $consulta_sesiones);
 

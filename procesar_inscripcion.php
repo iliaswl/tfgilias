@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$conexion = mysqli_connect("localhost", "root", "", "tfg");
+$conexion = mysqli_connect("localhost", "root", "contraseña", "tfg");
 
 if (!$conexion) {
     die("La conexión falló: " . mysqli_connect_error());
